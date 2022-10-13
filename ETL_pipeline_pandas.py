@@ -130,10 +130,10 @@ def get_property_type_csv(postcode_houseprices_df):
 if __name__ == '__main__':
     
     # #1. Download uk prices csv --> works
-    # csv_path = download_uk_houseprices()
+    csv_path = download_uk_houseprices()
 
     # #2.Get the whole file
-    csv_path= f"{DATASET_DIR}/uk_house_prices.csv"
+    # csv_path= f"{DATASET_DIR}/uk_house_prices.csv"
     uk_prices_df= import_csv(csv_path)
 
     # #3. Clean uk price data --> works
